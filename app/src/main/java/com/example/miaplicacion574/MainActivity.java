@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         txt.setTextColor(Color.BLACK);
 
-        // Añadir Comentario
+        txt.setTextColor(Color.WHITE);
 
 
     }
