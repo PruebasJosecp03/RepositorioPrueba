@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
 
         txt.setTextColor(Color.BLACK);
 
+        txt.setTextColor(Color.WHITE);
+
 
     }
 }
