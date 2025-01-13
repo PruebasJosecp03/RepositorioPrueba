@@ -1,10 +1,12 @@
 package com.example.miaplicacion574;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
@@ -26,6 +28,13 @@ public class MainActivity extends AppCompatActivity {
 
         txt = findViewById(R.id.TextView);
         txt.setText("Hola Mundo");
+
+        ConstraintLayout main = findViewById(R.id.main);
+        main.setBackgroundColor(Color.BLACK);
+
+
+        txt.setTextColor(Color.WHITE);
+
 
     }
 }
